@@ -11,10 +11,7 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
-
+Route::get('/', ['uses' => '\\'.config('admin.controllers.namespace').'\\'.'AuthController@login']);
 
 Route::group(['prefix' => 'admin'], function () {
     Admin::routes();
