@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "8a4de6756c6c054c9edff09bf9db32bb",
-    "content-hash": "22adf8d7313a8e487c887ba29babd771",
+    "hash": "f5e65d645c543489b6811ad4d699a77e",
+    "content-hash": "7b481f804b28727a4f331cbe4598c368",
     "packages": [
         {
             "name": "arrilot/laravel-widgets",
@@ -1202,22 +1202,22 @@
         },
         {
             "name": "laraveladminpanel/admin",
-            "version": "dev-master",
+            "version": "dev-develop",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laraveladminpanel/admin.git",
-                "reference": "813a0981302bd69670feb13b4275a236bfdbb34a"
+                "reference": "cfa7462d4810e716cc65b269cb6dd675ab5d3e5b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laraveladminpanel/admin/zipball/813a0981302bd69670feb13b4275a236bfdbb34a",
-                "reference": "813a0981302bd69670feb13b4275a236bfdbb34a",
+                "url": "https://api.github.com/repos/laraveladminpanel/admin/zipball/cfa7462d4810e716cc65b269cb6dd675ab5d3e5b",
+                "reference": "cfa7462d4810e716cc65b269cb6dd675ab5d3e5b",
                 "shasum": ""
             },
             "require": {
                 "arrilot/laravel-widgets": "^3.7",
                 "doctrine/dbal": "^2.5",
-                "illuminate/support": "~5.4.0|~5.5.0",
+                "illuminate/support": "~5.4.0|~5.5.0|~5.6.0",
                 "intervention/image": "^2.4",
                 "larapack/doctrine-support": "~0.1.4",
                 "league/flysystem": "~1.0.41"
@@ -1255,14 +1255,14 @@
                     "email": "aleksey.kostenko.dev@gmail.com"
                 }
             ],
-            "description": "A Laravel Admin Package for The Control Group to make your life easier and steer your project in the right direction",
+            "description": "A Laravel Admin Package to make your life easier and steer your project in the right direction",
             "homepage": "http://laraveladminpanel.com",
             "keywords": [
                 "admin",
                 "laravel",
                 "panel"
             ],
-            "time": "2018-01-27 13:35:37"
+            "time": "2018-04-12 06:00:32"
         },
         {
             "name": "league/flysystem",
