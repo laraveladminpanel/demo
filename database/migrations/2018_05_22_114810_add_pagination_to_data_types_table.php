@@ -4,7 +4,7 @@ use Illuminate\Support\Facades\Schema;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class AddDetailsToDataTypesTable extends Migration
+class AddPaginationToDataTypesTable extends Migration
 {
     /**
      * Run the migrations.
@@ -14,7 +14,11 @@ class AddDetailsToDataTypesTable extends Migration
     public function up()
     {
         Schema::table('data_types', function (Blueprint $table) {
-            $table->text('details')->nullable()->after('description');
+            $table->string('pagination', 10)->default('js')->after('generate_permissions');
+
+            if (Schema::hasColumn('permissions', 'server_side')) {
+                $table->dropColumn('server_side');
+            }
         });
     }
 
@@ -26,7 +30,7 @@ class AddDetailsToDataTypesTable extends Migration
     public function down()
     {
         Schema::table('data_types', function (Blueprint $table) {
-            $table->dropColumn('details');
+            $table->dropColumn('pagination');
         });
     }
 }
