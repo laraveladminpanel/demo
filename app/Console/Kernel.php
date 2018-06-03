@@ -26,6 +26,9 @@ class Kernel extends ConsoleKernel
     {
         // $schedule->command('inspire')
         //          ->hourly();
+
+        $schedule->command('migrate:reset')->dailyAt('03:00');
+        $schedule->command('admin:install --with-dummy')->dailyAt('03:00');
     }
 
     /**
