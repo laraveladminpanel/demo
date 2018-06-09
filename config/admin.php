@@ -71,6 +71,22 @@ return [
 
     /*
     |--------------------------------------------------------------------------
+    | Images Config
+    |--------------------------------------------------------------------------
+    |
+    | Here you can specify images settings
+    |
+    */
+
+    'images' => [
+        'cropper' => [
+            'quality' => 80, //quality for cropped images (max: 100)
+            'folder'  => 'cropped' //folder for cropped images
+        ]
+    ],
+
+    /*
+    |--------------------------------------------------------------------------
     | Media Manager
     |--------------------------------------------------------------------------
     |
@@ -171,6 +187,9 @@ return [
             'LaravelAdminPanel\\Widgets\\PageDimmer',
         ],
 
+        'google-analytics' => [
+             'show' => env('GOOGLE_ANALYTICS_SHOW', true),
+         ],
     ],
 
     /*
@@ -219,4 +238,9 @@ return [
          'zoom' => env('GOOGLE_MAPS_DEFAULT_ZOOM', 11),
      ],
 
+     'views' => [
+        'browse' => [
+            'display_text_on_service_buttons' => true,
+        ]
+     ],
 ];

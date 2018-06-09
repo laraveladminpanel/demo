@@ -4,33 +4,34 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "f5e65d645c543489b6811ad4d699a77e",
-    "content-hash": "7b481f804b28727a4f331cbe4598c368",
+    "hash": "d8d9633fbec0f1a908bcbc32fe358537",
+    "content-hash": "4ca13268a1c7afa0e8356817835b90bd",
     "packages": [
         {
             "name": "arrilot/laravel-widgets",
-            "version": "3.9.0",
+            "version": "3.12",
             "source": {
                 "type": "git",
                 "url": "https://github.com/arrilot/laravel-widgets.git",
-                "reference": "83f7a95f8bf77e4b10f51e71560e78dbf2af7407"
+                "reference": "a1007a077114e6616009d2776a6a664e7425a047"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/arrilot/laravel-widgets/zipball/83f7a95f8bf77e4b10f51e71560e78dbf2af7407",
-                "reference": "83f7a95f8bf77e4b10f51e71560e78dbf2af7407",
+                "url": "https://api.github.com/repos/arrilot/laravel-widgets/zipball/a1007a077114e6616009d2776a6a664e7425a047",
+                "reference": "a1007a077114e6616009d2776a6a664e7425a047",
                 "shasum": ""
             },
             "require": {
-                "illuminate/console": ">=5.1",
-                "illuminate/container": ">=5.1",
-                "illuminate/contracts": ">=5.1",
-                "illuminate/support": ">=5.1",
-                "illuminate/view": ">=5.1",
-                "php": ">=5.5.9"
+                "illuminate/cache": ">=5.5",
+                "illuminate/console": ">=5.5",
+                "illuminate/container": ">=5.5",
+                "illuminate/contracts": ">=5.5",
+                "illuminate/support": ">=5.5",
+                "illuminate/view": ">=5.5",
+                "php": ">=7.0"
             },
             "require-dev": {
-                "phpunit/phpunit": "~4.0"
+                "phpunit/phpunit": "~6.0"
             },
             "type": "library",
             "extra": {
@@ -60,13 +61,13 @@
                 }
             ],
             "description": "A powerful alternative to view composers. Asynchronous widgets, reloadable widgets, console generator, caching - everything you can think of.",
-            "homepage": "https://github.com/Arrilot/laravel-widgets",
+            "homepage": "https://github.com/arrilot/laravel-widgets",
             "keywords": [
                 "ajax",
                 "laravel",
                 "widgets"
             ],
-            "time": "2017-11-23 21:18:07"
+            "time": "2018-04-15 19:59:08"
         },
         {
             "name": "dnoegel/php-xdg-base-dir",
@@ -385,16 +386,16 @@
         },
         {
             "name": "doctrine/dbal",
-            "version": "v2.6.3",
+            "version": "v2.7.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/dbal.git",
-                "reference": "e3eed9b1facbb0ced3a0995244843a189e7d1b13"
+                "reference": "11037b4352c008373561dc6fc836834eed80c3b5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/dbal/zipball/e3eed9b1facbb0ced3a0995244843a189e7d1b13",
-                "reference": "e3eed9b1facbb0ced3a0995244843a189e7d1b13",
+                "url": "https://api.github.com/repos/doctrine/dbal/zipball/11037b4352c008373561dc6fc836834eed80c3b5",
+                "reference": "11037b4352c008373561dc6fc836834eed80c3b5",
                 "shasum": ""
             },
             "require": {
@@ -403,9 +404,11 @@
                 "php": "^7.1"
             },
             "require-dev": {
-                "phpunit/phpunit": "^5.4.6",
+                "doctrine/coding-standard": "^4.0",
+                "phpunit/phpunit": "^7.0",
                 "phpunit/phpunit-mock-objects": "!=3.2.4,!=3.2.5",
-                "symfony/console": "2.*||^3.0"
+                "symfony/console": "^2.0.5||^3.0",
+                "symfony/phpunit-bridge": "^3.4.5|^4.0.5"
             },
             "suggest": {
                 "symfony/console": "For helpful console commands such as SQL execution and import of files."
@@ -416,7 +419,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "2.6.x-dev"
+                    "dev-master": "2.7.x-dev"
                 }
             },
             "autoload": {
@@ -454,7 +457,7 @@
                 "persistence",
                 "queryobject"
             ],
-            "time": "2017-11-19 13:38:54"
+            "time": "2018-04-07 18:44:18"
         },
         {
             "name": "doctrine/inflector",
@@ -803,16 +806,16 @@
         },
         {
             "name": "intervention/image",
-            "version": "2.4.1",
+            "version": "2.4.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Intervention/image.git",
-                "reference": "3603dbcc9a17d307533473246a6c58c31cf17919"
+                "reference": "e82d274f786e3d4b866a59b173f42e716f0783eb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Intervention/image/zipball/3603dbcc9a17d307533473246a6c58c31cf17919",
-                "reference": "3603dbcc9a17d307533473246a6c58c31cf17919",
+                "url": "https://api.github.com/repos/Intervention/image/zipball/e82d274f786e3d4b866a59b173f42e716f0783eb",
+                "reference": "e82d274f786e3d4b866a59b173f42e716f0783eb",
                 "shasum": ""
             },
             "require": {
@@ -832,7 +835,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "2.3-dev"
+                    "dev-master": "2.4-dev"
                 },
                 "laravel": {
                     "providers": [
@@ -869,7 +872,7 @@
                 "thumbnail",
                 "watermark"
             ],
-            "time": "2017-09-21 16:29:17"
+            "time": "2018-05-29 14:19:03"
         },
         {
             "name": "jakub-onderka/php-console-color",
@@ -960,21 +963,21 @@
         },
         {
             "name": "larapack/doctrine-support",
-            "version": "v0.1.4",
+            "version": "v0.1.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/larapack/doctrine-support.git",
-                "reference": "02c9fc73324d9111bb03bb8b087653afde8972e0"
+                "reference": "3434e59a71c72b0f03c9b07240086bc292eb747b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/larapack/doctrine-support/zipball/02c9fc73324d9111bb03bb8b087653afde8972e0",
-                "reference": "02c9fc73324d9111bb03bb8b087653afde8972e0",
+                "url": "https://api.github.com/repos/larapack/doctrine-support/zipball/3434e59a71c72b0f03c9b07240086bc292eb747b",
+                "reference": "3434e59a71c72b0f03c9b07240086bc292eb747b",
                 "shasum": ""
             },
             "require": {
                 "doctrine/dbal": "^2.5",
-                "illuminate/support": "5.3.*|5.4.*|5.5.*|5.5.x-dev"
+                "illuminate/support": "5.3.*|5.4.*|5.5.*|5.6.*"
             },
             "type": "library",
             "autoload": {
@@ -1001,7 +1004,7 @@
                 "laravel",
                 "support"
             ],
-            "time": "2017-09-21 16:46:37"
+            "time": "2018-03-13 12:35:48"
         },
         {
             "name": "laravel/framework",
@@ -1202,16 +1205,16 @@
         },
         {
             "name": "laraveladminpanel/admin",
-            "version": "dev-develop",
+            "version": "v0.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laraveladminpanel/admin.git",
-                "reference": "7419d65e0efe57a484e4e06275469db2a9a8cbdc"
+                "reference": "2fac586ea14e8b62d1cc0fb02fc966e9c163b3a5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laraveladminpanel/admin/zipball/7419d65e0efe57a484e4e06275469db2a9a8cbdc",
-                "reference": "7419d65e0efe57a484e4e06275469db2a9a8cbdc",
+                "url": "https://api.github.com/repos/laraveladminpanel/admin/zipball/2fac586ea14e8b62d1cc0fb02fc966e9c163b3a5",
+                "reference": "2fac586ea14e8b62d1cc0fb02fc966e9c163b3a5",
                 "shasum": ""
             },
             "require": {
@@ -1263,20 +1266,20 @@
                 "laravel",
                 "panel"
             ],
-            "time": "2018-05-27 20:43:12"
+            "time": "2018-06-07 11:49:04"
         },
         {
             "name": "league/flysystem",
-            "version": "1.0.41",
+            "version": "1.0.45",
             "source": {
                 "type": "git",
                 "url": "https://github.com/thephpleague/flysystem.git",
-                "reference": "f400aa98912c561ba625ea4065031b7a41e5a155"
+                "reference": "a99f94e63b512d75f851b181afcdf0ee9ebef7e6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/thephpleague/flysystem/zipball/f400aa98912c561ba625ea4065031b7a41e5a155",
-                "reference": "f400aa98912c561ba625ea4065031b7a41e5a155",
+                "url": "https://api.github.com/repos/thephpleague/flysystem/zipball/a99f94e63b512d75f851b181afcdf0ee9ebef7e6",
+                "reference": "a99f94e63b512d75f851b181afcdf0ee9ebef7e6",
                 "shasum": ""
             },
             "require": {
@@ -1287,12 +1290,13 @@
             },
             "require-dev": {
                 "ext-fileinfo": "*",
-                "mockery/mockery": "~0.9",
-                "phpspec/phpspec": "^2.2",
-                "phpunit/phpunit": "~4.8"
+                "phpspec/phpspec": "^3.4",
+                "phpunit/phpunit": "^5.7"
             },
             "suggest": {
                 "ext-fileinfo": "Required for MimeType",
+                "ext-ftp": "Allows you to use FTP server storage",
+                "ext-openssl": "Allows you to use FTPS server storage",
                 "league/flysystem-aws-s3-v2": "Allows you to use S3 storage with AWS SDK v2",
                 "league/flysystem-aws-s3-v3": "Allows you to use S3 storage with AWS SDK v3",
                 "league/flysystem-azure": "Allows you to use Windows Azure Blob storage",
@@ -1346,7 +1350,7 @@
                 "sftp",
                 "storage"
             ],
-            "time": "2017-08-06 17:41:04"
+            "time": "2018-05-07 08:44:23"
         },
         {
             "name": "monolog/monolog",
@@ -4734,9 +4738,7 @@
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": {
-        "laraveladminpanel/admin": 20
-    },
+    "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
